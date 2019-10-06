@@ -1,0 +1,10 @@
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 150px;
+}
+p{
+    text-align: center;
+    font-size: 40px;
+    margin: 15px 30px;
+}

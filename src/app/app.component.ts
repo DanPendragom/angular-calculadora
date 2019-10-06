@@ -5,6 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
+// O componente sempre começa sendo definindo como uma classe
 export class AppComponent {
-  title = 'angular-project';
+  description = 'Este é um atributo da classe AppComponent sendo renderizado através do operador {{nm_atributo}}';
 }
