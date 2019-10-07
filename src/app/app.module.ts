@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CalculadoraModule } from './calculadora/calculadora.module';
+import { CalculadoraModule } from './calculadora';
 
 @NgModule({
   // Componente que é renderizado pelo módulo
