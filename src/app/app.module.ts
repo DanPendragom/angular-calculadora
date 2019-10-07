@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CalculadoraModule } from './calculadora/calculadora.module';
 
 @NgModule({
   // Componente que é renderizado pelo módulo
@@ -12,7 +13,8 @@ import { AppComponent } from './app.component';
   // Modulos usam outros módulos, aqui eles são importados
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CalculadoraModule
   ],
   // Serviços
   providers: [],
