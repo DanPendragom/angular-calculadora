@@ -5,6 +5,11 @@ import { CalculadoraComponent } from './components/calculadora';
   declarations: [CalculadoraComponent],
   imports: [
     CommonModule
+  ],
+
+  // Torna o módulo calculadora e seus componentes visivel para os demais módulos
+  exports: [
+    CalculadoraComponent
   ]
 })
 
