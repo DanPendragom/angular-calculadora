@@ -6,7 +6,11 @@
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-9">
-                        <input class="form-control" type="text" placeholder="0">
+                        <input 
+                        class="form-control" 
+                        type="text" 
+                        [value]="display"
+                        readonly>
                     </div>
                     <div class="col-md-3">
                         <button class="btn btn-block btn-danger">C</button>
@@ -14,7 +18,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-3">
-                        <button class="btn btn-block">7</button>
+                        <button class="btn btn-block" (click)="nome">7</button>
                         <button class="btn btn-block">4</button>
                         <button class="btn btn-block">1</button>
                         <button class="btn btn-block btn-info">.</button>
